@@ -4,10 +4,12 @@ var path = require('path');
 
 app.use(exp.static(path.join(__dirname,'public')));
 
+var server = app.listen(9000,function(req,res){
 
-var server = app.listen(9000,function(){
+    var host = server.address().address
+    var port = server.address().port
 
-    console.log("server created");
+    console.log("ahe ithecgh");
 
 });
 
