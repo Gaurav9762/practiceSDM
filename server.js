@@ -6,6 +6,7 @@ var path = require('path');
 app.use(express.static(path.join(__dirname,'Public')));
 
 
+
 app.get('/',function(req,res){
 
     var person = {fname:"garry"}
