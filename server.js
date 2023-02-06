@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname,'Public')));
 
 app.get('/',function(req,res){
 
-    var person = {fname:"garry"}
+    var person = {fname:"Hello world"}
 
     res.send(person);
 });
